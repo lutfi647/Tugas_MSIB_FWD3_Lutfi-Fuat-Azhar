@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jadwal Kuliah</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 30px;
+    }
+    table {
+      width: 1000px;             
+      margin: auto;              
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid #555;
+      padding: 25px;             
+      text-align: center;
+      font-size: 16px;          
+    }
+    th {
+      background-color: #555;
+      color: white;
+      font-size: 17px;
+    }
+    .footer {
+      background-color: #007BFF; 
+      color: #fff;
+      font-weight: bold;
+      text-align: center;
+      font-size: 15px;
+      padding: 14px;
+    }
+    td:nth-child(1) { width: 110px; }   /* kolom HARI */
+    td:nth-child(2) { width: 150px; }   /* kolom JAM */
+    td:nth-child(3) { width: 300px; }   /* kolom MATA KULIAH */
+    td:nth-child(4) { width: 250px; }   /* kolom DOSEN */
+    td:nth-child(5) { width: 150px; }   /* kolom RUANG */
+
+    /* Tambahan styling untuk nama dan kampus */
+    .identitas {
+      font-size: 20px;   
+      font-weight: bold;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h2 align="center">Jadwal Perkuliahan</h2>
+
+  <table>
+    <tr>
+      <th>HARI</th>
+      <th>JAM</th>
+      <th>MATA KULIAH</th>
+      <th>DOSEN</th>
+      <th>RUANG</th>
+    </tr>
+    <tr>
+      <td rowspan="2">SENIN</td>
+      <td>08.00 - 10.00</td>
+      <td>Kajian Islam</td>
+      <td>Ust. Anwar Nashidin, Lc.</td>
+      <td>Ruang Teori</td>
+    </tr>
+    <tr>
+      <td>10.00 - 12.00</td>
+      <td>Aplikasi Perkantoran</td>
+      <td>Drs. MGS Hendri, M.M</td>
+      <td>Ruang Teori</td>
+    </tr>
+    <tr>
+      <td rowspan="2">SELASA</td>
+      <td>08.00 - 10.00</td>
+      <td>Linux Fundamental</td>
+      <td>Henry Saptono, S.Si.,M.Kom</td>
+      <td rowspan="2">Ruang I</td>
+    </tr>
+    <tr>
+      <td>10.00 - 12.00</td>
+      <td>HTML, CSS & Javascript</td>
+      <td>Sirajul Munir, S.Si, M.Kom</td>
+    </tr>
+    <tr>
+      <td rowspan="2">RABU</td>
+      <td>08.00 - 10.00</td>
+      <td>Basis Data</td>
+      <td>Sirajul Munir, S.Si, M.Kom</td>
+      <td rowspan="2"></td>
+    </tr>
+    <tr>
+      <td>10.00 - 12.00</td>
+      <td>Algoritma dan Pemrograman</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td rowspan="2">KAMIS</td>
+      <td>08.00 - 10.00</td>
+      <td>Kewirausahaan & Pengembangan Diri</td>
+      <td>Khoirul Umam, S.Pd</td>
+      <td rowspan="2">Ruang Teori</td>
+    </tr>
+    <tr>
+      <td>10.00 - 12.00</td>
+      <td>Bahasa Inggris</td>
+      <td>Drs. Mahfudz</td>
+    </tr>
+    <tr>
+      <td colspan="5" class="footer">
+        JADWAL DAPAT BERUBAH SEWAKTU-WAKTU
+      </td>
+    </tr>
+  </table>
+
+  <br><br>
+  <p class="identitas"><b>Nama:</b> Lutfi Fuat Azhar</p>
+  <p class="identitas"><b>Kampus:</b> Sekolah Tinggi Terpadu Nurul Fikri</p>
+
+</body>
+</html>
