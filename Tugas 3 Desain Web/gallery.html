@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Gallery</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f8f9fa;
+    }
+    h2 {
+      margin-bottom: 20px;
+      color: #333;
+    }
+    .gallery {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .gallery img {
+      width: 200px;
+      height: 130px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+      transition: transform 0.3s;
+    }
+    .gallery img:hover {
+      transform: scale(1.1);
+    }
+    marquee {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h2>🖼️ Galeri Foto</h2>
+  <div class="gallery">
+    <img src="https://picsum.photos/300/200?random=1" alt="Foto 1">
+    <img src="https://picsum.photos/300/200?random=2" alt="Foto 2">
+    <img src="https://picsum.photos/300/200?random=3" alt="Foto 3">
+    <img src="https://picsum.photos/300/200?random=4" alt="Foto 4">
+  </div>
+
+  <marquee behavior="scroll" direction="left"> Selamat datang di Galeri </marquee>
+</body>
+</html>
